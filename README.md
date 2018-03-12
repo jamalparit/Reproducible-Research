@@ -1,20 +1,20 @@
 Reproducible-research-project-1
 ===============================
 
-The goal of this assignment is to analyze a set of data and document it so that it is reproducible by others. After all, if others can't replicate it, it is not science. The components of this repo are as follows:  
-
-* A R markdown file of the data analysis. (analysis_doc.rmd)  
-* The data itself. (steps_data.csv)  
-* A html file corresponding to the rmd file.  (analysis_doc.html)  
-* Plots in the document.  
-
-[HTML file](http://htmlpreview.github.io/?https://github.com/FyzHsn/Reproducible-research-project-1/blob/master/analysis_doc.html) corresponding to the analysis_doc.rmd file.
-
-Below we give a more detailed breakdown of the various components of the assignment.
-___________
-
 Introduction
 ------------
+
+It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. These type of devices are part of the “quantified self” movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.
+
+* Dataset: Activity monitoring data [52K]
+
+The variables included in this dataset are:
+
+* steps: Number of steps taking in a 5-minute interval (missing values are coded as NA)
+* date: The date on which the measurement was taken in YYYY-MM-DD format
+* interval: Identifier for the 5-minute interval in which measurement was taken
+
+The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
 There is a "quantified self" movement comprised of people who take measurements involving themselves methodically to improve personal health and find patterns in their behaviour. [I myself inadvertently fall into this category due to my many n = 1 experiements with intermittent fasting, cold exposure, extreme endurance, caloric restriction and various exercise and dietary regimens. I was doing data science without even knowing it. Over the years, through all the noise, I have found real gems that have revolutionized my well being.]
 
